@@ -7,6 +7,7 @@ import Profile from './pages/Profile';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 import Header from './components/Header';
+import Tasks from './pages/Tasks';
 
 export default function App() {
   return <BrowserRouter>
@@ -14,6 +15,7 @@ export default function App() {
   <Header />
   <Routes>
     <Route path='/' element={<Dashboard/>} />
+    <Route path='tasks' element={<Tasks/>} />
     <Route path='about' element={<About/>} />
     <Route path='edubot' element={<EduBot/>} />
     <Route path='eduler' element={<Eduler/>} />
