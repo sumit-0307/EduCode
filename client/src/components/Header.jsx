@@ -5,8 +5,8 @@ export default function Header() {
     <div className='bg-slate-300'>
       <div className='flex justify-between items-center max-w-6xl mx-auto p-5'>
         <Link to={'/'} className='flex items-center space-x-0'>
-        <h1 className='text-slate-700 font-bold'>Edu</h1>
-        <h1 className='text-slate-900 font-bold'>Code</h1>
+        <h1 className='text-slate-700 font-bold text-4xl'>Edu</h1>
+        <h1 className='text-slate-900 font-bold text-4xl'>Code</h1>
         </Link>
         <ul className='flex gap-6'>
           <Link to={'/'}>
